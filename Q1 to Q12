@@ -1,0 +1,123 @@
+                                  A Job Ready Bootcamp in C++ ,DSA & IOT 
+                                                 Submitted By: Nayana S.Lokhande
+                                             Submitted To: MySirG
+                                                        Assignment No.1
+Q1   Write a program to print Hello Student on  the screen.
+Answer:    #include<stdio.h>
+                    int main()
+                    {
+                       printf("Hello Student")
+                       return 0;
+                     }
+Q2  Write a program to print Hello in the first line and Students in the second line.
+Answer:      #include<stdio.h>
+                     int main()
+                   {
+                  printf("Hello \nStudent");
+                   return 0;
+                   }
+Q3   Write a program to print “MySirG” on the screen. (Remember to print in double quotes)
+Answer:   #include<stdio.h>
+                   int main()
+                  {
+                 printf("\"MySirG\"");
+                 return 0;
+                }
+
+Q4  WAP to find the area of the circle. Take radius of circle from user as input                        and print the result in below given format.
+Expected output format – “Area of circle is A having the radius R”. Replace A with area & R with radius.
+Answer:  #include<stdio.h>
+                  int main()
+                 {
+                  float radius,area;
+                 printf("Enter radius");
+                 scanf("%f",&radius);
+                 area = 3.14*radius*radius;
+                 printf("Area of circle is %f having the radius %f",area,radius);
+                return 0;
+                }
+
+Q5  WAP to calculate the length of String using printf function.
+Answer:  #include<stdio.h>
+                int main()
+                {
+                  int x = printf("CODE");
+                printf("%d",x);
+                return 0;
+              }
+
+Q6 WAP to print the name of the user in double quotes.
+Expected output format – “Hello , Amit Kumar”
+Answer:   #include<stdio.h>
+                 int main()
+                {
+              printf("\"Hello , Amit Kumar\"");
+             return 0;
+             }
+
+Q7 WAP to print “%d” on the screen.
+Answere:     #include<stdio.h>
+                      int main()
+                    {
+                    printf("%%d");
+                   return 0;
+                    }
+Q8 WAP to print “\n” on the screen.
+Answere:    #include<stdio.h>
+                  int main()
+                {
+               printf("\\n");
+               return 0;
+                 }
+Q9 WAP to print “\\” on the screen. Answer:  #include<stdio.h>
+                 int main()
+                {
+                  printf("\\\\");
+                 return 0;
+ }
+
+Q10 WAP to take date as an input in below given format and convert the date format and 
+display the result as given below.
+User Input date format – “DD/MM/YYYY” (27/11/2022)
+Output format –
+“Day – DD , Month – MM , Year – YYYY” (Day – 27 ,Month – 07 , Year – 2022)
+Answer: #include<stdio.h>
+int main()
+ {
+    int day,month,year;
+ printf("Enter day in DD/MM/YYYY format\n");
+ scanf("%d/%d/%d",&day,&month,&year);
+
+ printf("%d day %d month and %d year",day,month,year);
+ return 0;
+ }
+
+Q11 WAP to take time as an input in below given format and convert the time format and 
+display the result as given below.
+User Input date format – “HH:MM”
+Output format – “HH hour and MM Minute”
+Example –
+“11:25” converted to “11 Hour and 25 Minute”
+Answer:    #include<stdio.h>
+                 int main()
+ {
+    int hour,min;
+printf(“Enter time in HH:MM format\n”);
+ scanf("%d:%d",&hour,&min);
+
+ printf("%d Hours and %d minutes",hour,min);
+ return 0;
+ }
+
+Q12Find output of below code:
+int main()
+{ 
+int x = printf(“ineuron”);
+printf(“%d”,x);
+return 0;
+}
+Answer: output : ineuron7
+     
+
+
+
